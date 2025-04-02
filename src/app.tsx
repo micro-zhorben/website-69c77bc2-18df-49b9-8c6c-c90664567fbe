@@ -10,7 +10,7 @@ const queryClient = new QueryClient();
 
 const App = () => {
   return (
-    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="light" storageKey="windows98-theme">
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <Toaster />
